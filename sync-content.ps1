@@ -1,4 +1,4 @@
-﻿#Add-Type -AssemblyName "System.Web"
+﻿Add-Type -AssemblyName "System.Web"
 $defaultTenant = "CPQCLM3_AX1"
 $defaultDomain = "cfgax1.cpq.awsdev.infor.com"
 
