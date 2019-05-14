@@ -9,6 +9,12 @@ Download the utilty and execute it from a powershell terminal.
 
 > `.\sync-content.ps`
 
+> If this fails, run
+>
+>`Add-Type -AssemblyName "System.Web"` 
+>
+>from the powershell >prompt first.
+
 When this powershell script is executed it will prompt for 3 things.
 
 1. Tenant Id.  (e.g. CUSTOMER_DEV)
